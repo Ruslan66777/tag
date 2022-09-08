@@ -1,14 +1,14 @@
 {
-  "name": "TÜRK-C Tagger Bot",
+  "name": "Marvel Fani biri",
   "logo":"https://telegra.ph/file/50c0103e4548eaae95e4d.jpg",
-  "description": "TÜRK-C TAG bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
+  "description": "Marvel- Bot bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
   "env": {
     "TOKEN": {
-      "description": "bot token girin YOUTUBE KANALIMDA KURULUMU VAR .",
+      "description": "bot token girin TELEQRAM KANALIMDA KURULUMU VAR .",
       "value": ""
     },
     "APP_ID": {
-      "description": "@otomytelegrambot dan api hash api id alınız. @turkcbot'a katıl sorunsuz çalışsın",
+      "description": "@otomytelegrambot dan api hash api id alınız. @ordayam_5_deqiqeye'a katıl sorunsuz çalışsın",
       "value": ""
     },
     "API_HASH": {
