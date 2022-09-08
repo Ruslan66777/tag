@@ -10,9 +10,9 @@ logging.basicConfig(
 )
 LOGGER = logging.getLogger(__name__)
 
-api_id = int(os.environ.get("APP_ID"))
-api_hash = os.environ.get("API_HASH")
-bot_token = os.environ.get("TOKEN")
+api_id = int(os.environ.get("10300036"))
+api_hash = os.environ.get("79c295e05c970ddd724f0762ba275104")
+bot_token = os.environ.get("5482727166:AAGHP_ovslWbAOLMCSepqO0Si5QGyYfel7I")
 client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 anlik_calisan = []
@@ -27,18 +27,18 @@ async def cancel(event):
 async def start(event):
   await event.reply("**Ben Tagger Bot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/turkctagbot?startgroup=a'),
-                      Button.url('📣 Geliştirici', 'https://t.me/turkcbot')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/KukruzF?startgroup=a'),
+                      Button.url('📣 Geliştirici', 'https://t.me/KukruzF')]
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Tagger Bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n\n`Örnek: /all Günaydın!`  \n\nBu komutu yanıt olarak kullanabilirsiniz. Herhangi bir mesaj yanıtlandığında, yanıtlanan mesaj ile kullanıcıları etiketleyecebilir\n@turkcbot"
+  helptext = "**Tagger Bot'un Yardım Menüsü**\n\nKomut: /all \n  Bu komutu, başkalarına bahsetmek istediğiniz metinle birlikte kullanabilirsiniz. \n\n`Örnek: /all Günaydın!`  \n\nBu komutu yanıt olarak kullanabilirsiniz. Herhangi bir mesaj yanıtlandığında, yanıtlanan mesaj ile kullanıcıları etiketleyecebilir\n@ordayam_5_deqiqeye"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/turkctagbot?startgroup=a'),
-                      Button.url('📣 Geliştirici', 'https://t.me/turkcbot')]
+                      [Button.url('🌟 Beni Bir Gruba Ekle', 'https://t.me/KukruzF?startgroup=a'),
+                      Button.url('📣 Geliştirici', 'https://t.me/KukruzF')]
                     ),
                     link_preview=False
                    )
@@ -80,6 +80,6 @@ async def mentionall(event):
         usrnum = 0
         usrtxt = ""
 
-print(">> Bot çalıyor merak etme 🚀 @drmehmetaktass bilgi alabilirsin <<")
+print(">> Bot çalıyor merak etme 🚀 @ordayam_5_deqiqeye bilgi alabilirsin <<")
 client.run_until_disconnected()
  
